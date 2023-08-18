@@ -1,17 +1,12 @@
 module.exports = {
-    env: {
-        browser: true,
-        es6: true,
-        node: true,
-    },
-    extends: [
-        'eslint:recommended',
-        'plugin:prettier/recommended',
-        'eslint-config-prettier',
-        'prettier',
-        'airbnb',
-    ],
-    rules: {
+  env: {
+    browser: true,
+    es6: true,
+    node: true,
+  },
+  extends: ['eslint:recommended', 'plugin:prettier/recommended', 'eslint-config-prettier', 'prettier', 'airbnb'],
+  rules: {
+    "import/no-unresolved": "off",
     'no-prototype-builtins': 'off',
     'no-self-assign': 'off',
     'no-empty': 'off',
